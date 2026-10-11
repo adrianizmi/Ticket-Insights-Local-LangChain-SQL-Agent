@@ -1,0 +1,8 @@
+[
+  {"id": "C01", "text": "I cannot sign in because the form rejects my password.", "expected_category": "access"},
+  {"id": "C02", "text": "I received two charges for the same monthly subscription.", "expected_category": "billing"},
+  {"id": "C03", "text": "Pages load correctly but take one minute to finish.", "expected_category": "performance"},
+  {"id": "C04", "text": "Exporting a report produces a file with no rows.", "expected_category": "bug"},
+  {"id": "C05", "text": "I would like to enable dark mode.", "expected_category": "feature"},
+  {"id": "C06", "text": "I need help with the product.", "expected_category": "other"}
+]

@@ -1,0 +1,13 @@
+id,created_at,product,status,text,category
+1,2026-10-01,Atlas,open,I receive a 403 error and cannot sign in.,access
+2,2026-10-01,Atlas,closed,My September invoice contains a duplicate charge.,billing
+3,2026-10-02,Beacon,open,The dashboard takes more than thirty seconds to load.,performance
+4,2026-10-02,Atlas,in_progress,The password reset link has expired.,access
+5,2026-10-03,Beacon,open,The export button creates an empty file.,bug
+6,2026-10-03,Atlas,open,The agreed discount was not applied to my invoice.,billing
+7,2026-10-04,Beacon,closed,I would like to schedule weekly reports.,feature
+8,2026-10-04,Beacon,closed,My second factor stopped working after changing phones.,access
+9,2026-10-05,Atlas,in_progress,Search takes several seconds with many records.,performance
+10,2026-10-05,Atlas,closed,The selected date changes when I save the form.,bug
+11,2026-10-06,Beacon,open,My user account is locked and I cannot sign in.,access
+12,2026-10-06,Beacon,open,The receipt shows a plan different from the one I purchased.,billing

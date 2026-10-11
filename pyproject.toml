@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ticket-insights"
+version = "0.1.0"
+description = "A local LangChain agent for secure, read-only support-ticket analytics."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+ai = [
+    "langchain>=1,<2",
+    "langchain-ollama>=1,<2",
+    "pydantic>=2,<3",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
+
+[project.scripts]
+ticket-insights = "ticket_insights.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ticket_insights"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = [".cache", ".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
